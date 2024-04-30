@@ -1,0 +1,29 @@
+.div-class{
+    color: white;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    width: 50%;
+    padding: 1rem;
+}
+#calci{
+    width: 70%;
+    padding: 1rem;
+}
+.form-style{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 3rem;
+    
+}
+input{
+    padding: 1rem;
+    width: 20%;
+    margin: 1rem;
+}
+#clear{
+    background-color: red;
+    width: 70%;
+    padding: 1rem;
+    color: white;
+}
