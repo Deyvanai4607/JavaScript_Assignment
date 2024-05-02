@@ -1,0 +1,78 @@
+ .body-class{
+    display: flex;
+    flex-direction: column;
+    border: 0.2rem solid black;
+ }
+ .header-class{
+    display: flex;
+    gap: 2rem;
+    border-bottom: 0.2rem solid black;
+  
+ }
+ .syncfusion-icon{
+    padding: 0.5rem;
+ }
+ a{
+    text-decoration: none;
+ }
+ .div-class{
+    border-bottom: 0.2rem solid black;
+    height: 27rem; 
+    padding: 3rem;
+    line-height: 1.5rem;
+ }
+ .div-class2{
+    border-bottom: 0.2rem solid black;
+    height: 27rem; 
+    padding: 3rem;
+    line-height: 1.5rem;
+    display: none;
+    
+ }
+ th,td,tr{
+    text-align: left;
+    padding: 1rem;
+ }
+  #category{
+    margin-left: 5rem;
+    padding: 0.2rem;
+    width: 10.7rem;
+  }
+  #book{
+    margin-left: 6.5rem;
+    padding: 0.2rem;
+  }
+  #email{
+    margin-left: 3.1rem;
+    padding: 0.2rem;
+  }
+  #authorName{
+    margin-left: 3.1rem;
+    padding: 0.2rem;
+  }
+  #publish{
+    margin-left: 4.7rem;
+    padding: 0.2rem;
+  }
+  #price{
+    margin-left: 6.4rem;
+    padding: 0.2rem;
+  }
+  .button-class{
+    width: 7rem;
+    margin-left: 1rem;
+    padding: 0.3rem;
+  }
+  .button-class1{
+    width: 7rem;
+    padding: 0.3rem;
+  }
+  .footer-class{
+    padding-left: 1rem;
+  }
+  #book-valid,#email-valid,#author-valid,#publish-valid,#price-valid{
+    display: none;
+  }
+  #book-invalid,#email-invalid,#author-invalid,#publish-invalid,#price-invalid{
+    display: none;
+  }

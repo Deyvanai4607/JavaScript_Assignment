@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title>Library Book Form</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body class="body-class">
+    <header class="header-class">
+        <span><img src="images/syncfusion.png" alt="syncfusion logo" width="30px " class="syncfusion-icon"></span>
+        <p>Library Portal</p>
+        <p><a href="#">Books</a></p>
+    </header>
+
+    <div class="div-class" id="div-class">
+        <h2>Add New Book</h2>
+        <form>
+            <label for="category">Category</label>
+            <select name="category" id="category">
+                <option value="IT">IT</option>
+                <option value="Maths">Maths</option>
+                <option value="CS">CS</option>
+            </select><br><br>
+            <label for="book">Book</label>
+            <input type="text" name="book" id="book" onkeyup="validateFeild()"><span id="book-valid">valid</span><span
+                id="book-invalid">Invalid</span><br><br>
+
+            <label for="email">Author Email</label>
+            <input type="text" name="email" id="email" onkeyup="validateFeild()"><span
+                id="email-valid">valid</span><span id="email-invalid">Invalid</span><br><br>
+
+            <label for="authorName">Author Name</label>
+            <input type="text" name="authorName" id="authorName" onkeyup="validateFeild()"><span
+                id="author-valid">valid</span><span id="author-invalid">Invalid</span><br><br>
+
+            <label for="publish">Published</label>
+            <input type="text" name="publish" id="publish" onkeyup="validateFeild()"><span
+                id="publish-valid">valid</span><span id="publish-invalid">Invalid</span><br><br>
+
+            <label for="price">Price</label>
+            <input type="text" name="price" id="price" onkeyup="validateFeild()"><span
+                id="price-valid">valid</span><span id="price-invalid">Invalid</span><br><br><br><br>
+
+            <button class="button-class1">Save</button>
+            <button class="button-class">Cancel</button>
+            <input type="button" class="button-class" value="Show" onclick="validate()">
+
+        </form>
+    </div>
+    <div class="div-class2" id="div-class2">
+        <h2>C++ Book Details</h2>
+        <table>
+            <tr>
+                <th>Category</th>
+                <td id="catvalue"></td>
+            </tr>
+            <tr>
+                <th>Book</th>
+                <td id="bookvalue"></td>
+            </tr>
+            <tr>
+                <th>Author Email</th>
+                <td id="emailvalue"></td>
+            </tr>
+            <tr>
+                <th>Author Name</th>
+                <td id="authornamevalue"></td>
+            </tr>
+            <tr>
+                <th>Published</th>
+                <td id="publishedvalue"></td>
+            </tr>
+            <tr>
+                <th>Price</th>
+                <td id="pricevalue"></td>
+            </tr>
+        </table>
+    </div>
+
+    <footer class="footer-class">
+        <p>Copyright @<span id="year"></span> - Present Syncfusion</p>
+    </footer>
+    <script>
+        const d = new Date();
+        let year = d.getFullYear();
+        document.getElementById("year").innerHTML = year;
+    </script>
+</body>
+
+
+</html>
